@@ -2,8 +2,76 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>ML API</title>
+  <title>Diabetes Prediction</title>
+  <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e6ff; /* Light purple background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+.login {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border-top: 5px solid #6a1b9a; /* Purple top border */
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: #4a148c; /* Dark purple text */
+    border-bottom: 2px solid #6a1b9a; /* Purple underline */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+form button {
+    background-color: #6a1b9a; /* Purple button */
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #4a148c; /* Darker purple on hover */
+}
+
+input:focus {
+    border-color: #6a1b9a; /* Purple border on focus */
+    outline: none;
+    background-color: #f3e5f5; /* Light purple background when focused */
+}
+
+
+  </style>
 </head>
 
 <body>
@@ -29,7 +97,8 @@
 
 
  </div>
- {{result}}
+
+ 
 
 </body>
 </html>
